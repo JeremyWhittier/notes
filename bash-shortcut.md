@@ -36,11 +36,10 @@ Alt + l   Lower the case of every character from the cursor to the end of the cu
 Alt + c   Capitalize the character under the cursor and move to the end of the word.
 Alt + r   Cancel the changes and put back the line as it was in the history (revert).
 Ctrl + _   Undo
- 
-TAB        Tab completion for file/directory names
-For example, to move to a directory 'sample1'; Type cd sam ; then press TAB and ENTER. 
-type just enough characters to uniquely identify the directory you wish to open.
-History:
+```
+
+###History:
+```
 Ctrl + r   Recall the last command including the specified character(s)
              searches the command history as you type.
              Equivalent to : vim ~/.bash_history. 
