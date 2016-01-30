@@ -67,3 +67,13 @@ Ctrl + D   Send an EOF marker, unless disabled by an option, this will close the
 Ctrl + Z   Send the signal SIGTSTP to the current task, which suspends it.
             To return to it later enter fg 'process name' (foreground)
 ```
+
+###Other Resources
+#####Scripting
+http://www.johnstowers.co.nz/blog/pages/bash-cheat-sheet.html
+
+https://gist.github.com/LeCoupa/122b12050f5fb267e75f
+
+http://explainshell.com/
+
+
