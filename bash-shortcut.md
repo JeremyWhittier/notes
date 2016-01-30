@@ -1,5 +1,9 @@
-#Original Source http://ss64.com/bash/syntax-keyboard.html
-Moving the cursor:
+#Bash Shortcuts
+#####Original Source http://ss64.com/bash/syntax-keyboard.html
+#####© Copyright SS64.com
+
+###Moving the cursor
+```
 Ctrl + a   Go to the beginning of the line (Home)
 Ctrl + e   Go to the End of the line (End)
 Ctrl + p   Previous command (Up arrow)
@@ -9,7 +13,9 @@ Alt + f   Forward (right) one word
 Ctrl + f   Forward one character
 Ctrl + b   Backward one character
 Ctrl + xx  Toggle between the start of line and current cursor position
-Editing:
+```
+###Editing
+```
 Ctrl + L   Clear the Screen, similar to the clear command
 Alt + Del Delete the Word before the cursor.
 Alt + d   Delete the Word after the cursor.
@@ -52,7 +58,10 @@ Ctrl + g   Escape from history searching mode
 ALT + .   Last argument of previous command
 !*   All arguments of previous command
 ^abc­^­def   Run previous command, replacing abc with def
-Process control:
+```
+
+###Process control
+```
 Ctrl + C   Interrupt/Kill whatever you are running (SIGINT)
 Ctrl + l   Clear the screen
 Ctrl + s   Stop output to the screen (for long running verbose commands)
@@ -61,3 +70,4 @@ Ctrl + q   Allow output to the screen (if previously stopped using command above
 Ctrl + D   Send an EOF marker, unless disabled by an option, this will close the current shell (EXIT)
 Ctrl + Z   Send the signal SIGTSTP to the current task, which suspends it.
             To return to it later enter fg 'process name' (foreground)
+```
