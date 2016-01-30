@@ -41,30 +41,27 @@ Ctrl + _   Undo
 ###History:
 ```
 Ctrl + r   Recall the last command including the specified character(s)
-             searches the command history as you type.
-             Equivalent to : vim ~/.bash_history. 
 Ctrl + p   Previous command in history (i.e. walk back through the command history)
 Ctrl + n   Next command in history (i.e. walk forward through the command history)
 
 Ctrl + s   Go back to the next most recent command.
-             (beware to not execute it from a terminal because this will also launch its XOFF).
 Ctrl + o   Execute the command found via Ctrl+r or Ctrl+s
-Ctrl + g   Escape from history searching mode
+
+
 !!   Repeat last command
 !abc   Run last command starting with abc
 !abc:p   Print last command starting with abc
 !$   Last argument of previous command
 ALT + .   Last argument of previous command
 !*   All arguments of previous command
-^abc­^­def   Run previous command, replacing abc with def
+^abc^def   Run previous command, replacing abc with def
 ```
 
 ###Process control
 ```
 Ctrl + C   Interrupt/Kill whatever you are running (SIGINT)
 Ctrl + l   Clear the screen
-Ctrl + s   Stop output to the screen (for long running verbose commands)
-            Then use PgUp/PgDn for navigation
+Ctrl + s   Stop output to the screen
 Ctrl + q   Allow output to the screen (if previously stopped using command above)
 Ctrl + D   Send an EOF marker, unless disabled by an option, this will close the current shell (EXIT)
 Ctrl + Z   Send the signal SIGTSTP to the current task, which suspends it.
