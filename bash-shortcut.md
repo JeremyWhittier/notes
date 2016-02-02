@@ -76,4 +76,6 @@ https://gist.github.com/LeCoupa/122b12050f5fb267e75f
 
 http://explainshell.com/
 
+http://wiki.bash-hackers.org/syntax/expansion/brace
+
 
